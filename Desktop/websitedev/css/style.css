@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.web-container {
+	height: auto;
+	width: 100%;
+}
+
+/* Header Section */
+#mainheader {
+	display: inline-block;
+	width: 100%;
+	height: 10.5%;
+}
+
+
+#mycologo {
+	max-width: 275px;
+	padding: 10px;
+	padding-left: 30px;
+	padding-top: 15px;
+	
+}
+
+a {
+	text-decoration: none
+}
+
+nav {
+	float: right;
+	display: inline-block;
+}
+
+.main_nav {
+	list-style: none;
+	float: right;
+	padding: 25px;
+}
+
+.main_nav li {
+	display: inline-block;
+	margin-right: 30px;
+	font-weight: normal;
+	padding-top: 10px;
+}
+
+.main_nav li a {
+	color: #050484;
+	font-family: 'Source Sans Pro';
+}
+
+.main_nav li a:hover {
+	color: green;
+}
+
+.active_nav {
+}
+
+/* Slide gang */ 
+/* .showSlide {  
+	display: none;
+	width: 100%;
+}  
+
+.showSlide img {  
+		width: 100%;  
+		height: 50%;
+		margin: none;
+}  
+.slidercontainer {  
+	padding-top: 10px;
+	width: 100%; 
+	position: absolute;  
+	max-height: auto;
+	left: 0;
+	
+}  
+.left, .right {  
+	cursor: pointer;  
+	position: absolute;  
+	top: 50%;  
+	width: auto;  
+	padding: 16px;  
+	margin-top: -22px;  
+	color: white;  
+	font-weight: bold;  
+	font-size: 18px;  
+	transition: 0.6s ease;  
+	border-radius: 0 3px 3px 0;  
+}  
+.right {  
+	right: 0;  
+	border-radius: 3px 0 0 3px;  
+}  
+	.left:hover, .right:hover {  
+		background-color: rgba(115, 115, 115, 0.8);  
+	}  
+.content {  
+	color: #eff5d4;  
+	font-size: 30px;  
+	padding: 8px 12px;  
+	position: absolute;  
+	top: 10px;  
+	width: 100%;  
+	text-align: center;  
+}  
+.active {  
+	background-color: #717171;  
+}  
+/* Fading animation */  
+/*
+.fade {  
+	-webkit-animation-name: fade;  
+	-webkit-animation-duration: 1.5s;  
+	animation-name: fade;  
+	animation-duration: 1.5s;  
+}  
+
+@-webkit-keyframes fade {  
+	from {  
+		opacity: .4  
+	}  
+	to {  
+		opacity: 1  
+	}  
+}  
+
+@keyframes fade {  
+	from {  
+		opacity: .4  
+	}  
+	to {  
+		opacity: 1  
+	}  
+}  */
